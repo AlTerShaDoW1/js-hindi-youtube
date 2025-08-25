@@ -1,4 +1,4 @@
-//  Primitive
+//  Primitive (Uses Stack memory, call by value, means copy, No change in original)
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -18,7 +18,7 @@ console.log(id === anotherId);
 
 
 
-// Reference (Non primitive) (Call by reference)
+// Reference (Non primitive) (Call by referencemeans original value will change, uses heap memory)
 
 // Array, Objects, Functions (datatype of reference datatypes: Function)
 
