@@ -14,7 +14,7 @@ let age = 18
 let isLoggedIn = false
 let state;
 
-// number => 2 to power 53
+// number => 2 to power 53 (range)
 // bigint
 // string => ""
 // boolean => true/false
