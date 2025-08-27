@@ -4,12 +4,12 @@
 // object literals
 
 const mySym = Symbol("key1")
-
+//object in js == structure in c
 
 const JsUser = {
     name: "Hitesh",
-    "full name": "Hitesh Choudhary",
-    [mySym]: "mykey1",
+    "full name": "Hitesh Choudhary", //cannot acess using dot operator
+    [mySym]: "mykey1", //cannot acess using dot operator
     age: 18,
     location: "Jaipur",
     email: "hitesh@google.com",
