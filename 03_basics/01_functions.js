@@ -39,7 +39,7 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("hitesh"))
 
 
-function calculateCartPrice(val1, val2, ...num1){
+function calculateCartPrice(val1, val2, ...num1){ //The remaining values after assigning first two passed values to val1 and val2 will be assigned to num1 in form of a array
     return num1
 }
 
